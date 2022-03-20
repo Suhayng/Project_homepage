@@ -1,0 +1,218 @@
+:root {
+    --color-beige : #f6f5ee;
+    --color-font-black:#333;
+    --color-font-light-black:#555;
+    --color-font-green:#669900;
+    --temp-border:solid 0px black;
+    --font-family:noraml Avenir, Arial, georgia;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    color: var(--color-font-black);
+    font-family: var(--font-family);
+}
+
+/* header */
+header {
+    background: var(--color-beige);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+} 
+
+header .wrap {
+    border: var(--temp-border);
+    height: 110px;
+    width: 1100px;
+    margin: 0px auto;
+    position: relative;
+}
+
+header .wrap .inner {
+    border: var(--temp-border);
+}
+
+header .wrap .inner .logo {
+    position: absolute;
+    top: 17px;
+    width: 120px;
+    height: 120px;
+}
+
+header .wrap .inner .menu_top_nav {
+    position: absolute;
+    right: 70px;
+    top: 20px;
+}
+
+header .wrap .inner .menu_top_nav ul li{
+    float: left;
+    text-align: center;
+    color: var(--color-font-light-black);
+    font-size: 12px;
+    height: 20px;
+    width: 54px;
+    border: var(--temp-border);
+}
+
+header .wrap .inner .menu_top_nav ul li a{
+    display: block;
+}
+
+header .wrap .inner .menu_top_nav ul li a:hover{
+    text-decoration: underline;
+}
+
+header .sub {
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    border: var(--temp-border);
+
+    display: flex;
+    justify-content: center; /* */
+}
+
+header .sub ul {
+    width: 737px;
+    display: flex;
+    justify-content: space-between; /**/
+    border: var(--temp-border);
+}
+
+header .sub ul li {
+    text-align: center;
+    flex: auto;
+    float: left; /**/
+}
+
+header .sub ul li a{
+    display: block;
+    border: var(--temp-border);
+    text-transform: uppercase; /* 모든 글자 대문자*/
+    font-size: 14px;
+    padding-top: 100x;
+    height: 30px;
+    transition: all 0.3s; /**/
+  
+}
+
+header .sub ul li a:hover{
+  
+    background-color: #9ea88e;
+    color: black;
+}
+
+main .banner {
+    overflow: hidden;
+    position: relative;
+    background: #555;
+    width: 100%;
+    height: calc(100vh - 300px);
+    padding-top: 110px;
+    
+}
+
+main .banner video {
+    object-fit: cover;
+    position: absolute;
+    opacity: 0.8;
+    width:100%;
+    height: 100%;
+    left: 0px;
+    top: 110px;
+    /*transform: translate(0, 110px);*/
+  
+  
+}
+
+main section .box {
+ display: fixed;
+
+   
+}
+
+ main section .box h1 {
+    font: bold 22px/1 ;
+    color: rgb(77, 75, 75);
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.wrap_img {
+    margin-left: 120px;
+}
+
+main section .box figure {
+    
+  
+    
+    transition: opacity 0.2s;
+  
+   position: relative;
+    margin-top: 7px;
+    margin-left: 14px;
+    
+    overflow: hidden;
+    height: 508px;
+    display: inline-block ;
+    
+ 
+  
+}
+
+section .box figure .best_img {
+    position: relative;
+    width: auto;
+    
+  
+   
+}
+
+section .box figure .best_img img {
+    
+    width: 400px;
+    height: 500px;
+  
+}
+
+figure figcaption {
+    
+    bottom: 20%;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    transition: all .3s ease;
+}
+
+figure .best_img {
+    opacity: 0.98;
+    transition: all 0.3s ease 0s;
+    overflow: hidden;
+    
+}
+
+figure:hover .best_img{
+    background-color: #dbdbda;
+}
+
+figure:hover img {
+    transform: scale(1.05, 1.05);
+    transition: all .3s ease;
+    opacity: 0.2;
+}
+
+figure:hover figcaption {
+    opacity: 1;
+    transition: all .3s ease;
+}

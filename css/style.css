@@ -216,3 +216,67 @@ figure:hover figcaption {
     opacity: 1;
     transition: all .3s ease;
 }
+
+.up_button {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+}
+
+.up_button img {
+    width: 29px;
+    height: 29px;
+    opacity: 0.8;
+}
+
+.down_button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.down_button img {
+    width: 29px;
+    height: 29px;
+    opacity: 0.8;
+}
+
+footer {
+    width: 100%;
+    height: 130px;
+    margin-top: 300px;
+    background-color: rgb(121, 112, 92);
+    padding: 100px 0px;
+    
+}
+
+footer .footer_wrap {
+    display: block;
+  
+}
+
+footer .footer_wrap .provision {
+   width: 100%;
+   height: 100%;
+   border-bottom: 1px solid #3a3936;
+   padding-bottom: 15px;
+   
+}
+
+footer .footer_wrap .provision::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer .footer_wrap .provision li {
+    display: inline-block;
+    margin-left: 40px ;
+}
+
+.company_center {
+   float: right;
+   margin-right: 200px;
+   margin-bottom: 20px;
+     
+}

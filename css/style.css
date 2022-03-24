@@ -154,8 +154,6 @@ main section .box {
 
 main section .box figure {
     
-  
-    
     transition: opacity 0.2s;
   
    position: relative;

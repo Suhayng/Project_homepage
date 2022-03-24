@@ -14,8 +14,105 @@
     padding: 0px;
     color: var(--color-font-black);
     font-family: var(--font-family);
+    
 }
 
+/* header */
+header {
+    background: var(--color-beige);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+} 
+
+header .wrap {
+    border: var(--temp-border);
+    height: 110px;
+    width: 1100px;
+    margin: 0px auto;
+    position: relative;
+}
+
+header .wrap .inner {
+    border: var(--temp-border);
+}
+
+header .wrap .inner .logo img{
+    position: absolute;
+    top: 17px;
+    width: 120px;
+    height: 120px;
+}
+
+header .wrap .inner .menu_top_nav {
+    position: absolute;
+    right: 70px;
+    top: 20px;
+}
+
+header .wrap .inner .menu_top_nav ul li{
+    float: left;
+    text-align: center;
+    color: var(--color-font-light-black);
+    font-size: 12px;
+    height: 20px;
+    width: 54px;
+    border: var(--temp-border);
+}
+
+header .wrap .inner .menu_top_nav ul li a{
+    display: block;
+}
+
+header .wrap .inner .menu_top_nav ul li a:hover{
+    text-decoration: underline;
+}
+
+header .sub {
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    border: var(--temp-border);
+
+    display: flex;
+    justify-content: center; /* */
+}
+
+header .sub ul {
+    width: 737px;
+    display: flex;
+    justify-content: space-between; /**/
+    border: var(--temp-border);
+}
+
+header .sub ul li {
+    text-align: center;
+    flex: auto;
+    float: left; /**/
+}
+
+header .sub ul li a{
+    display: block;
+    border: var(--temp-border);
+    text-transform: uppercase; /* 모든 글자 대문자*/
+    font-size: 14px;
+    padding-top: 100x;
+    height: 30px;
+    transition: all 0.3s; /**/
+  
+}
+
+header .sub ul li a:hover{
+  
+    background-color: #9ea88e;
+    color: black;
+}
+
+/* OUTER */
 main section .wrap_outer {
     display: fixed;
     text-align: center;
@@ -25,7 +122,118 @@ main section .wrap_outer {
 main section .wrap_outer h1 {
     font: bold 22px/1;
     color: rgb(77, 75, 75);
-    margin-top: 150px;
     margin-bottom: 15px;
 }
 
+main section .wrap_outer h2 {
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 15px 150px 5px;
+}
+
+main section .wrap_outer h2 a {
+    color: rgb(105, 105, 105);
+}
+
+main section .wrap_outer_img {
+    display: ;
+    margin-left: 200px;
+}
+
+main section .wrap_outer_img figure {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+   
+    margin-top: 7px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.outer_img {
+    position: relative;
+    width: auto;
+}
+
+.outer_img img {
+    width: 350px;
+    height: 450px;
+}
+
+figure figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* footer */
+footer {
+    width: 100%;
+    height: 110px;
+    margin-top: 300px;
+    background-color: rgb(121, 112, 92);
+    padding: 100px 0px;
+    font: var(--font-family);   
+}
+
+footer .footer_wrap {
+    display: block;
+  
+}
+
+footer .footer_wrap .provision {
+   width: 100%;
+   height: 100%;
+   border-bottom: 1px solid #3a3936;
+   padding-bottom: 15px;
+}
+
+/*
+footer .footer_wrap .provision::after {
+    content: "";
+    display: block;
+    clear: both;
+}*/
+
+footer .footer_wrap .provision li {
+    display: inline-block;
+    margin-left: 40px ;
+}
+
+.company_info {
+    display: inline;
+    float: left;
+    margin-left: 61%;
+    margin-top: 20px;
+}
+
+.company_info .company_name {
+    font: 19px bold;
+}
+
+.company_info li {
+    font-size: 15px;
+}
+
+.company_info .copyright {
+    font-size: 15px;
+    color: rgb(78, 78, 60);
+}
+.company_center {
+    float: right ;
+    margin-right: 100px;
+    margin-top: 20px;
+   
+ }
+ 
+ .company_center .CS {
+    font: 19px bold;
+ }
+
+ .company_center .number {
+     font-size: 17px;
+ }
+
+ .company_center li {
+     font-size: 12px;
+ }

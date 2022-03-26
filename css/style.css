@@ -111,7 +111,6 @@ header .sub ul li a:hover{
     color: black;
 }
 
-/* 배너 */
 main .banner {
     overflow: hidden;
     position: relative;
@@ -135,10 +134,9 @@ main .banner video {
   
 }
 
-/* OUR BEST THING*/
 main section .box {
- display: fixed;
 
+ display: block ;
    
 }
 
@@ -164,7 +162,7 @@ main section .box figure {
     
     overflow: hidden;
     height: 508px;
-    display: inline-block ;
+    display: inline-block;
     
  
   
@@ -216,8 +214,7 @@ figure:hover figcaption {
     opacity: 1;
     transition: all .3s ease;
 }
-
-/* 맨위로 올리기 버튼*/
+    
 .up_button {
     position: fixed;
     bottom: 50px;
@@ -229,7 +226,7 @@ figure:hover figcaption {
     height: 29px;
     opacity: 0.8;
 }
-ㄴ
+
 .down_button {
     position: fixed;
     bottom: 20px;

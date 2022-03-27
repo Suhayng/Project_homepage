@@ -166,6 +166,18 @@ figure figcaption {
     margin-top: 10px;
 }
 
+.up_button {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+}
+
+.up_button img {
+    width: 29px;
+    height: 29px;
+    opacity: 0.8;
+}
+
 
 /* footer */
 footer {

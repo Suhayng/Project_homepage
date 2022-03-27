@@ -238,6 +238,18 @@ header .sub ul li a:hover{
     font-size: 16px;
 } */
 
+.up_button {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 1;
+}
+
+.up_button img {
+    width: 29px;
+    height: 29px;
+    opacity: 0.8;
+}
 
 
 footer {

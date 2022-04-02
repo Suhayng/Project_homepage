@@ -102,7 +102,7 @@ header .sub ul li a{
     padding-top: 100x;
     height: 30px;
     transition: all 0.3s; /**/
-  
+    line-height: 30px;
 }
 
 header .sub ul li a:hover{
@@ -119,7 +119,7 @@ main .banner {
     width: 100%;
     height: calc(100vh - 300px);
     padding-top: 110px;
-    
+  
 }
 
 main .banner video {
@@ -131,13 +131,12 @@ main .banner video {
     left: 0px;
     top: 110px;
     /*transform: translate(0, 110px);*/
-  
-  
+   
 }
-
+/* best thing*/
 main section .box {
-
- display: block ;
+     display: block ;
+     background-color: #f3f3f3;
    
 }
 
@@ -145,47 +144,40 @@ main section .box {
     font: bold 22px/1 ;
     color: rgb(77, 75, 75);
     text-align: center;
-    margin-top: 150px;
+    padding-top: 150px;
     margin-bottom: 100px;
 }
 
-.wrap_img {
+.box .wrap_img {
     margin-left: 120px;
 }
 
 main section .box figure {
-    
     transition: opacity 0.2s;
   
-   position: relative;
+    position: relative;
     margin-top: 7px;
     margin-left: 14px;
+    height: 508px;
     
     overflow: hidden;
-    height: 508px;
     display: inline-block;
-    
- 
-  
+
 }
 
 section .box figure .best_img {
     position: relative;
-    width: auto;
-    
-  
-   
+    width: 400px;
+
 }
+
 
 section .box figure .best_img img {
-    
     width: 400px;
     height: 500px;
-  
 }
 
-figure figcaption {
-    
+section .box figure figcaption {
     bottom: 20%;
     opacity: 0;
     position: absolute;
@@ -194,28 +186,93 @@ figure figcaption {
     transition: all .3s ease;
 }
 
-figure .best_img {
+section .box figure .best_img {
     opacity: 0.98;
     transition: all 0.3s ease 0s;
-    overflow: hidden;
-    
+  
 }
 
-figure:hover .best_img{
-    background-color: #dbdbda;
+section .box figure:hover .best_img{
+    background-color: #f2f8edda;
 }
 
-figure:hover img {
+section .box figure:hover img {
     transform: scale(1.05, 1.05);
     transition: all .3s ease;
     opacity: 0.2;
 }
 
-figure:hover figcaption {
+section .box figure:hover figcaption {
     opacity: 1;
     transition: all .3s ease;
 }
-    
+
+
+/* 신상품 */
+main section .box2 {
+    display: block ;
+   
+   
+}
+
+main section .box2 h1 {
+   font: 13px ;
+   color: rgb(95, 93, 93);
+   text-align: center;
+   margin-top: 150px;
+   margin-bottom: 110px;
+}  
+
+.wrap_img2 {
+   margin-left: 200px;
+}
+
+main section .box2 figure {
+  
+ 
+   position: relative;
+   
+   margin-top: 70px;
+   margin-left: 14px;
+   height: 508px;
+   
+   overflow: hidden;
+   display: inline-block;
+
+}
+
+section .box2 figure .new_img {
+   position: relative;
+   width: 350px;
+
+}
+
+
+section .box2 figure .new_img img {
+   width: 350px;
+   height: 450px;
+
+
+   position: absolute;
+}
+
+section .box2 figure .new_img  .active {
+    z-index: 1;
+}
+
+section .box2 figure .new_img  .active1 {
+    z-index: 1;
+} 
+
+section .box2 figure figcaption {
+   font-size: 14px;
+   margin-top: 460px; 
+   position: absolute;
+   text-align: center;
+   width: 100%;
+ 
+}
+
 .up_button {
     position: fixed;
     bottom: 50px;
@@ -227,6 +284,18 @@ figure:hover figcaption {
     height: 29px;
     opacity: 0.8;
 }
+
+.kakao {
+    position: fixed;
+    bottom: 85px;
+    right: 20px;
+}
+
+.kakao img {
+    width: 32px;
+    height: 32px;
+}
+
 
 /*
 .down_button {
@@ -299,7 +368,6 @@ footer .footer_wrap .provision li {
     float: right ;
     margin-right: 100px;
     margin-top: 20px;
-   
  }
  
  .company_center .CS {

@@ -25,7 +25,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 999;
+    z-index: 1;
 } 
 
 header .wrap {
@@ -102,11 +102,11 @@ header .sub ul li a{
     padding-top: 100x;
     height: 30px;
     transition: all 0.3s; /**/
-  
+    line-height: 30px;
+
 }
 
 header .sub ul li a:hover{
-  
     background-color: #9ea88e;
     color: black;
 }
@@ -176,7 +176,6 @@ header .sub ul li a:hover{
     border: 1px solid #666;
     background: #fff;
     vertical-align: -2px;
-  
 }
 
 
@@ -249,6 +248,17 @@ header .sub ul li a:hover{
     width: 29px;
     height: 29px;
     opacity: 0.8;
+}
+
+.kakao {
+    position: fixed;
+    bottom: 85px;
+    right: 20px;
+}
+
+.kakao img {
+    width: 32px;
+    height: 32px;
 }
 
 

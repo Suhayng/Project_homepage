@@ -25,7 +25,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 999;
+    z-index: 1;
 } 
 
 header .wrap {
@@ -119,7 +119,10 @@ main .banner {
     width: 100%;
     height: calc(100vh - 300px);
     padding-top: 110px;
+<<<<<<< HEAD
   
+=======
+>>>>>>> 110430e59daab47560e307ad42cb33371063112c
 }
 
 main .banner video {
@@ -131,13 +134,19 @@ main .banner video {
     left: 0px;
     top: 110px;
     /*transform: translate(0, 110px);*/
+<<<<<<< HEAD
    
+=======
+>>>>>>> 110430e59daab47560e307ad42cb33371063112c
 }
 /* best thing*/
 main section .box {
      display: block ;
+<<<<<<< HEAD
      background-color: #f3f3f3;
    
+=======
+>>>>>>> 110430e59daab47560e307ad42cb33371063112c
 }
 
  main section .box h1 {
@@ -162,13 +171,20 @@ main section .box figure {
     
     overflow: hidden;
     display: inline-block;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 110430e59daab47560e307ad42cb33371063112c
 }
 
 section .box figure .best_img {
     position: relative;
+<<<<<<< HEAD
     width: 400px;
 
+=======
+    width: auto;
+>>>>>>> 110430e59daab47560e307ad42cb33371063112c
 }
 
 
@@ -177,7 +193,11 @@ section .box figure .best_img img {
     height: 500px;
 }
 
+<<<<<<< HEAD
 section .box figure figcaption {
+=======
+figure figcaption {
+>>>>>>> 110430e59daab47560e307ad42cb33371063112c
     bottom: 20%;
     opacity: 0;
     position: absolute;
@@ -189,7 +209,11 @@ section .box figure figcaption {
 section .box figure .best_img {
     opacity: 0.98;
     transition: all 0.3s ease 0s;
+<<<<<<< HEAD
   
+=======
+    overflow: hidden;
+>>>>>>> 110430e59daab47560e307ad42cb33371063112c
 }
 
 section .box figure:hover .best_img{

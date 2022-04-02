@@ -92,24 +92,90 @@ header .sub ul li {
     text-align: center;
     flex: auto;
     float: left; /**/
+    position: relative;
+}
+
+.sub ul li ul {
+    display: none;
+    position: absolute;
+    width: 100px;
+    
+    
+}
+
+.sub ul li:hover ul {
+    display: block;
 }
 
 header .sub ul li a{
     display: block;
+    text-align: none;
     border: var(--temp-border);
     text-transform: uppercase; /* 모든 글자 대문자*/
     font-size: 14px;
     padding-top: 100x;
     height: 30px;
     transition: all 0.3s; /**/
+<<<<<<< HEAD
     line-height: 30px;
 
+=======
+<<<<<<< HEAD
+    line-height: 50px;
+   
+=======
+>>>>>>> 110430e59daab47560e307ad42cb33371063112c
 }
+>>>>>>> 31e977a43d44ee7831551434574f60e15a8981f3
 
 header .sub ul li a:hover{
     background-color: #9ea88e;
     color: black;
 }
+
+header .sub .sub_menu li a:hover{
+    background-color: rgb(253, 253, 253);
+    opacity: 0.7;
+    color: #959292;
+}
+
+.sub_menu {
+    display: none;
+    position: absolute;
+}
+
+.sub_menu ul li{
+   
+    width: 200px;
+    height: 30px;
+    color: rgb(148, 145, 145);
+}
+
+.sub_menu li a{
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    color: #2f2f2f;
+    
+
+}
+
+.sub_menu li:hover a{
+  
+}
+
+/*
+.menu_main_nav ul ul {
+    display: none;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+}
+
+.menu_main_nav ul li:hover ul {
+    display: block;
+}
+*/
 
 /* 로그인 */
 .wrap_login {

@@ -26,7 +26,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 999;
+    z-index: 1;
 } 
 
 header .wrap {
@@ -169,10 +169,13 @@ section .new_outer h1 a{
 
 section .new_outer h1 a:hover{
     color: rgb(42, 41, 41)
+<<<<<<< HEAD
 }
 
 section .wrap_outer h2 a:hover{
     color: rgb(187, 179, 159)
+=======
+>>>>>>> 110430e59daab47560e307ad42cb33371063112c
 }
 
 main section .wrap_outer_img {

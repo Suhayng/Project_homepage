@@ -119,10 +119,6 @@ main .banner {
     width: 100%;
     height: calc(100vh - 300px);
     padding-top: 110px;
-<<<<<<< HEAD
-  
-=======
->>>>>>> 110430e59daab47560e307ad42cb33371063112c
 }
 
 main .banner video {
@@ -132,34 +128,28 @@ main .banner video {
     width:100%;
     height: 100%;
     left: 0px;
-    top: 110px;
+    
     /*transform: translate(0, 110px);*/
-<<<<<<< HEAD
-   
-=======
->>>>>>> 110430e59daab47560e307ad42cb33371063112c
 }
-/* best thing*/
+
 main section .box {
      display: block ;
-<<<<<<< HEAD
-     background-color: #f3f3f3;
-   
-=======
->>>>>>> 110430e59daab47560e307ad42cb33371063112c
+     background-color: rgb(241, 241, 241);
 }
 
  main section .box h1 {
     font: bold 22px/1 ;
     color: rgb(77, 75, 75);
     text-align: center;
-    padding-top: 150px;
-    margin-bottom: 100px;
+    padding-top: 180px;
+    margin-bottom: 180px;
 }
 
-.box .wrap_img {
+.wrap_img {
     margin-left: 120px;
 }
+
+
 
 main section .box figure {
     transition: opacity 0.2s;
@@ -171,33 +161,19 @@ main section .box figure {
     
     overflow: hidden;
     display: inline-block;
-<<<<<<< HEAD
-
-=======
->>>>>>> 110430e59daab47560e307ad42cb33371063112c
 }
 
 section .box figure .best_img {
     position: relative;
-<<<<<<< HEAD
-    width: 400px;
-
-=======
     width: auto;
->>>>>>> 110430e59daab47560e307ad42cb33371063112c
 }
-
 
 section .box figure .best_img img {
     width: 400px;
     height: 500px;
 }
 
-<<<<<<< HEAD
-section .box figure figcaption {
-=======
-figure figcaption {
->>>>>>> 110430e59daab47560e307ad42cb33371063112c
+.box figure figcaption {
     bottom: 20%;
     opacity: 0;
     position: absolute;
@@ -206,96 +182,84 @@ figure figcaption {
     transition: all .3s ease;
 }
 
-section .box figure .best_img {
+figure .best_img {
     opacity: 0.98;
     transition: all 0.3s ease 0s;
-<<<<<<< HEAD
-  
-=======
     overflow: hidden;
->>>>>>> 110430e59daab47560e307ad42cb33371063112c
 }
 
-section .box figure:hover .best_img{
-    background-color: #f2f8edda;
+figure:hover .best_img{
+    background-color: #dbdbda;
 }
 
-section .box figure:hover img {
+.wrap_img figure:hover img {
     transform: scale(1.05, 1.05);
     transition: all .3s ease;
     opacity: 0.2;
 }
 
-section .box figure:hover figcaption {
+.wrap_img figure:hover figcaption {
     opacity: 1;
     transition: all .3s ease;
 }
 
-
-/* 신상품 */
 main section .box2 {
     display: block ;
-   
-   
 }
 
 main section .box2 h1 {
-   font: 13px ;
-   color: rgb(95, 93, 93);
+   font: 18px ;
+   color: rgb(112, 112, 112);
    text-align: center;
-   margin-top: 150px;
-   margin-bottom: 110px;
-}  
+   margin-top: 160px;
+   margin-bottom: 120px;
+}
 
 .wrap_img2 {
-   margin-left: 200px;
+   margin-left: 220px;
 }
 
 main section .box2 figure {
-  
  
    position: relative;
-   
-   margin-top: 70px;
+   margin-top: 50px;
    margin-left: 14px;
-   height: 508px;
+   margin-bottom: 50px;
+   height: 500px;
    
    overflow: hidden;
    display: inline-block;
-
 }
 
 section .box2 figure .new_img {
    position: relative;
+   width: auto;
+   height: 450px;
    width: 350px;
-
 }
-
 
 section .box2 figure .new_img img {
-   width: 350px;
-   height: 450px;
-
-
-   position: absolute;
+    position: absolute; /* overflow : hidden 먹힘*/
+    height: 450px;
+    width: 350px;
+    
 }
 
-section .box2 figure .new_img  .active {
-    z-index: 1;
-}
+.box2 figure figcaption {
 
-section .box2 figure .new_img  .active1 {
-    z-index: 1;
-} 
-
-section .box2 figure figcaption {
-   font-size: 14px;
-   margin-top: 460px; 
-   position: absolute;
    text-align: center;
-   width: 100%;
- 
+   margin-top: 10px; 
+  
 }
+
+
+.new_img img .active img{
+    z-index: 1;
+   
+}
+
+
+
 
 .up_button {
     position: fixed;
@@ -311,16 +275,15 @@ section .box2 figure figcaption {
 
 .kakao {
     position: fixed;
-    bottom: 85px;
+    bottom: 88px;
     right: 20px;
 }
 
 .kakao img {
     width: 32px;
     height: 32px;
+   
 }
-
-
 /*
 .down_button {
     position: fixed;

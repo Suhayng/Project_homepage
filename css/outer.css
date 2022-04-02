@@ -145,6 +145,10 @@ main section .wrap_outer h2 a {
     color: rgb(124, 124, 124);
 }
 
+main section .wrap_outer h2 a:hover {
+    color: rgb(214, 208, 185);
+}
+
 section .new_outer h1 {
     display: inline-block;
     position: relative;
@@ -169,13 +173,6 @@ section .new_outer h1 a{
 
 section .new_outer h1 a:hover{
     color: rgb(42, 41, 41)
-<<<<<<< HEAD
-}
-
-section .wrap_outer h2 a:hover{
-    color: rgb(187, 179, 159)
-=======
->>>>>>> 110430e59daab47560e307ad42cb33371063112c
 }
 
 main section .wrap_outer_img {
@@ -207,8 +204,8 @@ main section .wrap_outer_img figure {
 figure figcaption {
     text-align: center;
     margin-top: 10px;
-    font-size: 14px;
 }
+
 
 .up_button {
     position: fixed;
@@ -221,16 +218,16 @@ figure figcaption {
     height: 29px;
     opacity: 0.8;
 }
-
 .kakao {
     position: fixed;
-    bottom: 85px;
+    bottom: 88px;
     right: 20px;
 }
 
 .kakao img {
     width: 32px;
     height: 32px;
+   
 }
 
 

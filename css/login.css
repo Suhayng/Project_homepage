@@ -25,7 +25,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 999;
+    z-index: 1;
 } 
 
 header .wrap {
@@ -116,11 +116,14 @@ header .sub ul li a{
     padding-top: 100x;
     height: 30px;
     transition: all 0.3s; /**/
+<<<<<<< HEAD
     line-height: 50px;
    
+=======
+}
+>>>>>>> 31e977a43d44ee7831551434574f60e15a8981f3
 
 header .sub ul li a:hover{
-  
     background-color: #9ea88e;
     color: black;
 }
@@ -234,7 +237,6 @@ header .sub .sub_menu li a:hover{
     border: 1px solid #666;
     background: #fff;
     vertical-align: -2px;
-  
 }
 
 

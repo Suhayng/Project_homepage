@@ -212,7 +212,7 @@ header .sub .sub_menu li a:hover{
 
 
 /* checkbox 안뜸 */
-.wrap_login ul li input[type="checkbox"]:checked + label::before {
+.wrap_login ul li input[type="checkbox"]:checked + label::after {
     background: url(../img/checkbox.png) no-repeat center #666;
     background-color: #666;
 }

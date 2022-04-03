@@ -285,6 +285,7 @@ header .sub .sub_menu li a:hover{
     position: fixed;
     bottom: 88px;
     right: 20px;
+    z-index: 1;
 }
 
 .kakao img {

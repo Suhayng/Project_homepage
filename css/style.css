@@ -253,7 +253,7 @@ section .box2 figure .new_img img {
 }
 
 
-.new_img img .active img{
+.new_img img .active{
     z-index: 1;
    
 }
